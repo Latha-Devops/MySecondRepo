@@ -1,0 +1,11 @@
+public class EnvReader {
+    public static void main(String[] args) {
+        String env = System.getenv("APP_ENV");
+        if (env == null) {
+            System.out.println("APP_ENV not set!");
+        } else {
+            System.out.println("Running in environment: " + env);
+        }
+    }
+}
+
