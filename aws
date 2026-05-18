@@ -1,0 +1,8 @@
+public class CpuLoad {
+    public static void main(String[] args) {
+        while (true) {
+            double x = Math.random() * Math.random();
+        }
+    }
+}
+
